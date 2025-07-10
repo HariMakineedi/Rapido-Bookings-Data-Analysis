@@ -13,13 +13,13 @@ To analyze large-scale ride data from Rapido in order to identify key trends in 
 9. Calculate the total booking value of rides completed successfully.
 10. List all incomplete rides along with the reason.
 ## Power BI Questions:
-1. Ride Volume Over Time
-2. Booking Status Breakdown
-3. Top 5 Vehicle Types by Ride Distance
-4.Average Customer Ratings by Vehicle Type
-5. Canceled Rides Reasons
-6. Revenue by Payment Method
-7.Top 5 Customers by Total Booking Value
-8.Ride Distance Distribution Per Day
-9.Driver Ratings Distribution
-10. Customer vs Driver Ratings
+Ride Volume Over Time
+Booking Status Breakdown
+Top 5 Vehicle Types by Ride Distance
+Average Customer Ratings by Vehicle Type
+Canceled Rides Reasons
+Revenue by Payment Method
+Top 5 Customers by Total Booking Value
+Ride Distance Distribution Per Day
+Driver Ratings Distribution
+Customer vs Driver Ratings
