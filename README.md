@@ -112,6 +112,14 @@ Built an **interactive dashboard** in Power BI with the following visuals:
   - **Customer experience**
 
 ---
+##  Dashboard Preview
+
+![Rapido Dashboard](https://github.com/HariMakineedi/Rapido-Bookings-Data-Analysis/blob/main/Rapido-Dashboard.png)
+
+##  Conclusion
+
+This project successfully demonstrated the power of combining **SQL**, **Excel**, and **Power BI** for end-to-end data analysis. By examining over 100,000 Rapido ride records, we identified key trends in booking success, cancellations, and revenue patterns. The interactive dashboard empowers stakeholders to make data-driven decisions, improve operational efficiency, and enhance user satisfaction. This analysis showcases how real-time data insights can support business growth and strategic planning.
+
 
 
 
