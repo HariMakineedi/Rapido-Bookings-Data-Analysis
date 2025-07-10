@@ -23,7 +23,7 @@ To analyze large-scale ride data from Rapido in order to identify key trends in 
 
 10. List all incomplete rides along with the reason.
 
-## Power BI Questions:
+##  Power BI Questions:
 
 1.Ride Volume Over Time.
 2.Booking Status Breakdown.
@@ -43,3 +43,75 @@ To analyze large-scale ride data from Rapido in order to identify key trends in 
 9.Driver Ratings Distribution.
 
 10.Customer vs Driver Ratings.
+
+##  Tools & Technologies
+
+- **SQL** – Data cleaning, filtering, aggregation
+- **Excel** – Initial data preprocessing
+- **Power BI** – Interactive dashboard creation
+- **Power Query** – Data loading and shaping
+
+  ##  Project Process:
+
+### 1. 📥 Data Collection
+- Collected over **100,000+ ride records** for the month of **July 2024**.
+- Dataset included:  
+  - Booking status  
+  - Timestamps  
+  - Booking value  
+  - Vehicle types  
+  - User feedback  
+
+---
+
+### 2. 🧹 Data Cleaning & Transformation
+- Used **Excel** and **Power Query** to:
+  - Remove null and duplicate entries  
+  - Standardize date formats and booking status values  
+  - Convert unstructured fields into clean, analysis-ready tables  
+
+---
+
+### 3. 🔗 Data Modeling in Power BI
+- Imported the cleaned dataset into **Power BI Desktop**
+- Created relationships between key fields:
+  - `Ride_Date`, `Vehicle_Type`, `Booking_Status`
+- Designed a **data model** supporting:
+  - Time-series analysis  
+  - Categorical segmentation  
+  - Cross-filtered visuals  
+
+---
+
+### 4. 📊 Dashboard Development
+Built an **interactive dashboard** in Power BI with the following visuals:
+
+- **Pie Chart:**  
+  - Booking Status Breakdown (Success, Canceled by Driver, Canceled by Customer, Driver Not Found)
+
+- **Line Chart:**  
+  - Daily Ride Volume Trend (*Ride_Volume_Over_Time*)
+
+- **KPI Cards:**  
+  - `Total Bookings:` **103,024**  
+  - `Total Booking Value:` **35M**
+
+- **Date Slicer:**  
+  - Interactive filter (from `01-07-2024` to `31-07-2024`)
+
+- Applied a custom **yellow & black theme** to reflect **Rapido branding** and maintain visual consistency
+
+---
+
+### 5. 💡 Insight Generation
+- 📌 **62% of bookings were successful**, while the rest were canceled or failed  
+- 📉 **Observed fluctuations in daily ride volume**, helping identify peak demand periods  
+- 📈 Delivered actionable insights to help stakeholders improve:
+  - **Driver allocation**
+  - **Cancellation management**
+  - **Customer experience**
+
+---
+
+
+
