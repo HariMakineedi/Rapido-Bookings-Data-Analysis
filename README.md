@@ -7,7 +7,6 @@ To analyze large-scale ride data from Rapido in order to identify key trends in 
 You can download the dataset used in this project here:  
 [📄 Rapido-Bookings-Data.xlsx](https://github.com/HariMakineedi/Rapido-Bookings-Data-Analysis/blob/main/Rapido-Bookings-Data.xlsx)
 
-e dashboard.
 
 
 
